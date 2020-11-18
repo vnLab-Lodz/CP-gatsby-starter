@@ -6,7 +6,8 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-react-helmet`,
+  plugins: [
+`gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -58,5 +59,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`
-  ],
+],
 }
