@@ -1,11 +1,12 @@
-First install all the gatsby plugins with npm with the following command: 
+Prerequirements:
 
-`npm install gatsby-plugin-react-helmet gatsby-source-filesystem gatsby-transformer-remark gatsby-plugin-typescript gatsby-plugin-sass gatsby-plugin-manifest gatsby-plugin-offline`
+`node v14.15.1`
+`npm v6.14.8`
+
+Then in order to install all plugins and dependencies use the following command:
+
+`npm install`
 
 ---
-Secondly install all the dependent modules:
 
-`npm install gatsby react react-dom react-helmet`
-
----
 Quick structure prompt
