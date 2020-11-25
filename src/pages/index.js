@@ -1,5 +1,10 @@
 import React from "react"
 
-export default function Home() {
-  return <div>Hello world!</div>
+export default () =>  {
+  return (
+  <div>
+    <script src="https://hypothes.is/embed.js" async/>
+    Hello world!
+  </div>
+  )
 }
