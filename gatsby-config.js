@@ -59,6 +59,12 @@ module.exports = {
         icon: `src/images/icon.png`
       },
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-google-scholar`,
+      options: {
+        queries: [`richard feynman`, `albert einstein`],
+      },
+    }
 ],
 }
