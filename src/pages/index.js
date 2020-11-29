@@ -2,9 +2,9 @@ import React from "react"
 
 export default () =>  {
   return (
-  <div>
+  <div style={{ color: `purple` }}>
     <script src="https://hypothes.is/embed.js" async/>
-    Hello world!
+    <p>Hello world!</p>
   </div>
   )
 }
