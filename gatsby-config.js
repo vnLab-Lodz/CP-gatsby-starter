@@ -14,8 +14,6 @@ module.exports = {
   },
   /* Your site config here */
   plugins: [
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -76,6 +74,8 @@ module.exports = {
         icon: `src/images/icon.png`
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-offline`
-],
+  ],
 }

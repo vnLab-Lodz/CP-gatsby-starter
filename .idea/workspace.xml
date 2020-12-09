@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6351e715-2b2e-4426-8261-ecf4bde6787a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/scssExample.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
@@ -52,7 +52,7 @@
       <workItem from="1606944880365" duration="1449000" />
       <workItem from="1606948108888" duration="1030000" />
       <workItem from="1606996708986" duration="653000" />
-      <workItem from="1607526996939" duration="2349000" />
+      <workItem from="1607526996939" duration="3079000" />
     </task>
     <servers />
   </component>
