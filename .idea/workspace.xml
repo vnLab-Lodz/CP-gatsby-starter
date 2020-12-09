@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6351e715-2b2e-4426-8261-ecf4bde6787a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,8 @@
       <workItem from="1606653780759" duration="671000" />
       <workItem from="1606654829654" duration="2979000" />
       <workItem from="1606944880365" duration="1449000" />
+      <workItem from="1606948108888" duration="1030000" />
+      <workItem from="1606996708986" duration="653000" />
     </task>
     <servers />
   </component>
@@ -65,5 +66,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
