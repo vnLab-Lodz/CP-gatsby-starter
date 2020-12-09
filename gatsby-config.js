@@ -5,6 +5,13 @@
  */
 
 module.exports = {
+  /* Your site metadata*/
+  siteMetadata: {
+    title: ``,
+    author: ``,
+    contact: ``,
+    facebook: ``,
+  },
   /* Your site config here */
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -59,12 +66,6 @@ module.exports = {
         icon: `src/images/icon.png`
       },
     },
-    `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-source-google-scholar`,
-      options: {
-        queries: [`richard feynman`, `albert einstein`],
-      },
-    }
+    `gatsby-plugin-offline`
 ],
 }

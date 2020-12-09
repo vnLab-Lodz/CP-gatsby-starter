@@ -4,7 +4,7 @@ export default () =>  {
   return (
   <div>
     <script src="https://hypothes.is/embed.js" async/>
-    Hello world!
+    <h3>Hello world!</h3>
   </div>
   )
 }
