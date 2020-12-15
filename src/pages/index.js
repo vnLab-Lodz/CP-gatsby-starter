@@ -1,6 +1,6 @@
 import React from "react"
-import { css } from "@emotion/react"
-import { rhythm } from "../utils/typography"
+//import { css } from "@emotion/react" // need to substitute
+//import { rhythm } from "../utils/typography"
 import { Link, graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
 import Header from "../components/header"
@@ -14,24 +14,18 @@ export default function Home({data}) {
       <script src="https://hypothes.is/embed.js" async/>
       <Header headerText="Hello World!" />
       <p>What a nice image!!!</p>
-
-      {data.allMarkdownRemark.edges.map(({ node }) => (
+      
+       {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <h3
-              css={css`
-                margin-bottom: ${rhythm(1 / 4)};
-              `}
-            >
-              {node.frontmatter.title}{" "}
-              <span
-                css={css`
-                  color: #bbb;
-                `}
-              >
-                — {node.frontmatter.date}
-              </span>
-            </h3>
-            <p>{node.excerpt}</p>
+            <Link to={node.fields.slug}>
+              <h3>
+                {node.frontmatter.title}{" "}
+                <span>
+                  — {node.frontmatter.date}
+                </span>
+              </h3>
+              <p>{node.excerpt}</p>
+            </Link>
           </div>
         ))}
       <br/>
@@ -52,6 +46,9 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+          }
+          fields {
+            slug
           }
           excerpt
         }
