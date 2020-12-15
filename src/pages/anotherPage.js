@@ -12,14 +12,20 @@
 //   )
 // }
 
+import { Helmet } from 'react-helmet'
+import "../stylesheets/scssExample.scss"
+import { graphql } from "../../.cache/gatsby-browser-entry"
 import React from "react"
 import Header from "../components/header"
 import { Link } from "gatsby"
 export default function anotherPage() {
   return (
-    <div style={{ color: `teal` }}>
-      <Header headerText="AnotherPage" />
-      <Link to="/">Home</Link>
+    <div>
+      <div id="content">
+        <Helmet title="Very " defer={false} />  {/*defer={false} is to overcome an upstream issue with React Helmet*/}
+        <Header headerText="AnotherPage" />
+        <Link to="/">Home</Link>
+      </div>
     </div>
   )
 }

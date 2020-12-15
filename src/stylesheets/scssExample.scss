@@ -1,12 +1,54 @@
-$font-stack: Helvetica, sans-serif;
+$font-stack: "Comic Sans MS", sans-serif;
 $primary-color: #333;
 
+
+
 body {
+  background-color: #008080;
   font: 100% $font-stack;
-  color: pink;
+}
+#content{
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  padding: 20px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 2px 5px 10px 7px #333333;
+  //color: #90b020;
+  color: black;
+
+  h1{
+    margin: 0;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 1px 2px 5px #333333;
+    padding: 5px;
+  }
+
+  p{
+    margin: 0;
+    padding: 5px;
+  }
 }
 
-p{
-  color: pink;
-  font-family: "Comic Sans MS", serif;
+.credentials{
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  .author-header{
+    font-size: 15px;
+    padding: 2px;
+  }
+  .authors {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    .author {
+      margin: 2px;
+    }
+  }
 }
+
