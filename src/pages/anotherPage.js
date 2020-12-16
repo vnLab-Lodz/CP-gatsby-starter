@@ -1,8 +1,9 @@
 import { Helmet } from 'react-helmet'
 import "../stylesheets/scssExample.scss"
-import { graphql, Link } from "gatsby"
+import { Link } from "gatsby"
 import React from "react"
 import Header from "../components/header"
+
 export default function anotherPage() {
   return (
     <div>
