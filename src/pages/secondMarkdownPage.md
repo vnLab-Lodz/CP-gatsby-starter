@@ -16,7 +16,7 @@ Second generated Markdown page
 
 <br/>
 
-![alt text](../images/Thinking-of-getting-a-cat.png)
+<img src="../images/Thinking-of-getting-a-cat.png" alt="cat image" width="1200">
 
 <br/>
 

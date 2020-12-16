@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
 import Header from "../components/header"
 import "../stylesheets/scssExample.scss"
+import Cat from "../images/Thinking-of-getting-a-cat.png"
 
 export default function Home({data}) {
   return (
@@ -15,7 +16,7 @@ export default function Home({data}) {
         <div>
           <h2>Example header!!!</h2>
         </div>
-        <img src="https://source.unsplash.com/random/400x200" alt="" />
+        <img src={Cat} alt="Cat image" width="100%"/>
         <br/>
         <Link to="/anotherPage/">AnotherPage</Link>
 
