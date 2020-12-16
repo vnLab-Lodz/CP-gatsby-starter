@@ -3,6 +3,8 @@ title: "Second MarkDown to HTML generated page"
 variable: "some data in variable"
 variable2: "another data in variable 2"
 date: "2020-12-16"
+
+blog: "false"
 ---
 
 Second generated Markdown page 
@@ -17,6 +19,11 @@ Second generated Markdown page
 <br/>
 
 ![alt text](../images/Thinking-of-getting-a-cat.png)
+
+<br/>
+
+<img src="../images/Thinking-of-getting-a-cat.png" width ="500"/>
+
 
 <br/>
 

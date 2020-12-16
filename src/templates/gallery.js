@@ -2,11 +2,12 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
-export default function BlogPost({ data }) {
+export default function Gallery({ data }) {
   const post = data.markdownRemark
   return (
     <Layout>
       <div>
+        <h1>This is a Gallery Template!</h1>
         <h1>{post.frontmatter.title}</h1>
         <p>{post.frontmatter.date}</p>
         <br/>
