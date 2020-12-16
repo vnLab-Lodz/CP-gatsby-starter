@@ -2,6 +2,12 @@ $font-stack: "Comic Sans MS", sans-serif;
 $primary-color: #333;
 
 
+a{
+  color: black;
+}
+a:hover{
+  color: slateblue;
+}
 
 body {
   background-color: #008080;

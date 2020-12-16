@@ -19,6 +19,7 @@ export default function Home({data}) {
         <br/>
         <Link to="/anotherPage/">AnotherPage</Link>
 
+
         <div id="content">
           
           {data.allMarkdownRemark.edges.map(({ node }) => (

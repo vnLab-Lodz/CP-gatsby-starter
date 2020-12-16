@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6351e715-2b2e-4426-8261-ecf4bde6787a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anotherPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anotherPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/scssExample.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/scssExample.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +29,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nnnnnn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -54,6 +59,8 @@
       <workItem from="1607526996939" duration="3879000" />
       <workItem from="1607598798457" duration="811000" />
       <workItem from="1607860670492" duration="42000" />
+      <workItem from="1608128291577" duration="319000" />
+      <workItem from="1608131796445" duration="1900000" />
     </task>
     <servers />
   </component>

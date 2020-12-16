@@ -71,7 +71,7 @@ module.exports = {
         background_color: `#555`,
         theme_color: `#096`,
         display: `standalone`,
-        icon: `src/images/icon.png`
+        icon: `src/images/Avatar_cat.png`
       },
     },
     `gatsby-plugin-sharp`,
