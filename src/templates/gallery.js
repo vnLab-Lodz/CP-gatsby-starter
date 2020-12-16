@@ -6,7 +6,7 @@ export default function Gallery({ data }) {
   const post = data.markdownRemark
   return (
     <Layout>
-      <div>
+      <div id="content">
         <h1>This is a Gallery Template!</h1>
         <h1>{post.frontmatter.title}</h1>
         <p>{post.frontmatter.date}</p>
