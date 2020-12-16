@@ -1,6 +1,7 @@
 ---
 title: "MarkDown to HTML generated page"
 date: "2020-12-13"
+featuredImage: ../images/Thinking-of-getting-a-cat.png
 ---
 Here is an example of a simple html page generated from a MarkDown file.
 Don't hesitate to have a look in a code.
