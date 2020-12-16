@@ -22,7 +22,7 @@ Second generated Markdown page
 
 <br/>
 
-<img src="../images/Thinking-of-getting-a-cat.png" width ="500"/>
+<img src="../images/icon.png" width ="500"/>
 
 
 <br/>
