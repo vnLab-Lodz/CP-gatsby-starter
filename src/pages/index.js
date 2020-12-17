@@ -8,14 +8,16 @@ export default function Home({data}) {
   return (
     <div>
       <div id="content">
-        <Helmet title="Very " defer={false} />  {/*defer={false} is to overcome an upstream issue with React Helmet*/}
+        <Helmet title="Front Page " defer={false} />  {/*defer={false} is to overcome an upstream issue with React Helmet*/}
         <script src="https://hypothes.is/embed.js" async/>
-        <Header headerText="Hello World!" />
-        <p>What a nice image!!!</p>
+        <Header headerText='"App-name" Gatsby Starter' />
+        <p>Welcome to our "app-name" starter!!!</p>
         <div>
-          <h2>Example header!!!</h2>
+          <h2>Example of image placement: </h2>
         </div>
         <img src={`/images/Thinking-of-getting-a-cat.png`} alt="Alt of an image"  width="100%"/>
+        <br/>
+        <p><b>Example of accessing another page:</b></p>
         <br/>
         <Link to="/anotherPage/">AnotherPage</Link>
 

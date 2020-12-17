@@ -12,7 +12,7 @@ export default function Gallery({ data }) {
         <p>{post.frontmatter.date}</p>
         <br/>
         <p>{post.frontmatter.variable}</p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div id="gallery" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
   )

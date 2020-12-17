@@ -1,16 +1,37 @@
-$font-stack: "Comic Sans MS", sans-serif;
+$font-stack: Georgia, serif;
 $primary-color: #333;
+$link-text-color: #4d8073;
+$hover-link-text-color: #61518c;
+$background-gradient: linear-gradient(to left,
+        rgba(0,0,0,1) 0%,
+        rgba(0,25,25,1) 5%,
+        rgba(0,50,50,1) 12%,
+        rgba(0,75,75,1) 22%,
+        rgba(0,100,100,1) 28%,
+        rgba(0,125,125,1) 37%,
+        rgba(0,150,150,1) 46%,
+        rgba(0,175,175,1) 56%,
+        rgba(0,200,200,1) 67%,
+        rgba(0,225,225,1) 100%);
 
 
 a{
-  color: black;
+  color: $link-text-color;
 }
 a:hover{
-  color: slateblue;
+  color: $hover-link-text-color;
 }
 
+img{
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 body {
-  background-color: #008080;
+  background: $background-gradient;
   font: 100% $font-stack;
 }
 #content{
@@ -58,3 +79,16 @@ body {
   }
 }
 
+#gallery{
+  p{
+    background-color:  #333333;
+    padding: 0;
+    box-shadow: 2px 5px 10px 7px #333333;
+    img{
+      width: 100%;
+    }
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
