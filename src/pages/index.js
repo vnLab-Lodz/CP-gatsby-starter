@@ -9,9 +9,11 @@ export default function Home({data}) {
     <div>
       <div id="content">
         <Helmet title="Front Page " defer={false} />  {/*defer={false} is to overcome an upstream issue with React Helmet*/}
-        <script src="https://hypothes.is/embed.js" async/>
-        <Header headerText='"App-name" Gatsby Starter' />
-        <p>Welcome to our "app-name" starter!!!</p>
+        <Helmet>
+          <script src="https://hypothes.is/embed.js" async></script>
+        </Helmet>
+        <Header headerText='Publab Page Starter' />
+        <p>Welcome to our Publab starter!!!</p>
         <div>
           <h2>Example of image placement: </h2>
         </div>
